@@ -64,7 +64,13 @@ const nextBtn = document.querySelector(".arrow.next");
 
 const galleryData = {
   "Warrior": ["./assets/images/warrior.jpg"],
-  "Priest": ["./assets/images/priest.jpg"],
+  "Priest": [
+    "./assets/images/gallery/Priest/01.png",
+    "./assets/images/gallery/Priest/02.png",
+    "./assets/images/gallery/Priest/03.png",
+    "./assets/images/gallery/Priest/04.png",
+    "./assets/images/gallery/Priest/05.png"
+  ],
   "Mage": [],
   "Paladin": [],
   "Rogue": [],
