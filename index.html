@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legends of Champions Tactics</title>
+    <meta name="description" content="A dark fantasy tactical arena game. Grit meets sanctity.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <span class="brand-mark">✠</span>
+          <span class="brand-name">Legends of Champions Tactics</span>
+        </div>
+        <nav class="nav">
+          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#characters">Characters</a></li>
+            <li><a href="#professions">Professions</a></li>
+            <li><a href="#play">Play Demo</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-media">
+        <div class="grain"></div>
+      </div>
+      <div class="container hero-content">
+        <h1 class="title">Grit And Grace In The Arena</h1>
+        <p class="subtitle">Darkest Dungeon inspired animation, gothic heroes, tactical brutality.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#play">Play Demo</a>
+          <a class="btn btn-ghost" href="#features">Discover Features</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title">Features</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3 class="feature-title">Tactical Combat</h3>
+            <p class="feature-text">Positioning, formations, stances and class synergies decide victory.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="feature-title">Dark Fantasy Art</h3>
+            <p class="feature-text">Realistic shadows, sacred motifs, semi‑realistic detail and grit.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="feature-title">Arena Modes</h3>
+            <p class="feature-text">Ranked duels, team clashes, and challenge trials with unique rules.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="characters" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Characters</h2>
+        <div class="characters-grid">
+          <article class="char-card">
+            <div class="char-media" style="background-image:url('./assets/images/warrior.jpg');"></div>
+            <div class="char-body">
+              <h3 class="char-name">Warrior</h3>
+              <p class="char-roles">Defence · Weapon Master · Berserker</p>
+            </div>
+          </article>
+          <article class="char-card">
+            <div class="char-media" style="background-image:url('./assets/images/priest.jpg');"></div>
+            <div class="char-body">
+              <h3 class="char-name">Priest</h3>
+              <p class="char-roles">Shelter · Shadow · Discipline · Devine</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="professions" class="section">
+      <div class="container">
+        <h2 class="section-title">Professions</h2>
+        <p class="section-intro">Choose your path. Filter by class to view specializations.</p>
+        <div class="professions-filter" role="tablist" aria-label="Class filter">
+          <button class="pill active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="pill" data-filter="Warrior" role="tab">🛡 Warrior</button>
+          <button class="pill" data-filter="Mage" role="tab">🔮 Mage</button>
+          <button class="pill" data-filter="Paladin" role="tab">✨ Paladin</button>
+          <button class="pill" data-filter="Priest" role="tab">⛪ Priest</button>
+          <button class="pill" data-filter="Rogue" role="tab">🗡 Rogue</button>
+          <button class="pill" data-filter="Necromancer" role="tab">☠ Necromancer</button>
+          <button class="pill" data-filter="Warlock" role="tab">🔥 Warlock</button>
+          <button class="pill" data-filter="Death Knight" role="tab">Death Knight</button>
+        </div>
+
+        <div class="spec-grid">
+          <!-- Warrior -->
+          <div class="spec-card" data-class="Warrior">
+            <div class="spec-class">🛡 Warrior</div>
+            <div class="spec-name">Defence</div>
+          </div>
+          <div class="spec-card" data-class="Warrior">
+            <div class="spec-class">🛡 Warrior</div>
+            <div class="spec-name">Weapon Master</div>
+          </div>
+          <div class="spec-card" data-class="Warrior">
+            <div class="spec-class">🛡 Warrior</div>
+            <div class="spec-name">Berserker</div>
+          </div>
+
+          <!-- Mage -->
+          <div class="spec-card" data-class="Mage">
+            <div class="spec-class">🔮 Mage</div>
+            <div class="spec-name">Comprehensiveness</div>
+          </div>
+          <div class="spec-card" data-class="Mage">
+            <div class="spec-class">🔮 Mage</div>
+            <div class="spec-name">Frost</div>
+          </div>
+          <div class="spec-card" data-class="Mage">
+            <div class="spec-class">🔮 Mage</div>
+            <div class="spec-name">Fire</div>
+          </div>
+          <div class="spec-card" data-class="Mage">
+            <div class="spec-class">🔮 Mage</div>
+            <div class="spec-name">Arcane</div>
+          </div>
+          <div class="spec-card" data-class="Mage">
+            <div class="spec-class">🔮 Mage</div>
+            <div class="spec-name">Water</div>
+          </div>
+
+          <!-- Paladin -->
+          <div class="spec-card" data-class="Paladin">
+            <div class="spec-class">✨ Paladin</div>
+            <div class="spec-name">Retribution</div>
+          </div>
+          <div class="spec-card" data-class="Paladin">
+            <div class="spec-class">✨ Paladin</div>
+            <div class="spec-name">Protection</div>
+          </div>
+          <div class="spec-card" data-class="Paladin">
+            <div class="spec-class">✨ Paladin</div>
+            <div class="spec-name">Holy</div>
+          </div>
+
+          <!-- Priest -->
+          <div class="spec-card" data-class="Priest">
+            <div class="spec-class">⛪ Priest</div>
+            <div class="spec-name">Comprehensiveness</div>
+          </div>
+          <div class="spec-card" data-class="Priest">
+            <div class="spec-class">⛪ Priest</div>
+            <div class="spec-name">Shelter</div>
+          </div>
+          <div class="spec-card" data-class="Priest">
+            <div class="spec-class">⛪ Priest</div>
+            <div class="spec-name">Shadow</div>
+          </div>
+          <div class="spec-card" data-class="Priest">
+            <div class="spec-class">⛪ Priest</div>
+            <div class="spec-name">Discipline</div>
+          </div>
+          <div class="spec-card" data-class="Priest">
+            <div class="spec-class">⛪ Priest</div>
+            <div class="spec-name">Devine</div>
+          </div>
+
+          <!-- Rogue -->
+          <div class="spec-card" data-class="Rogue">
+            <div class="spec-class">🗡 Rogue</div>
+            <div class="spec-name">Comprehensiveness</div>
+          </div>
+          <div class="spec-card" data-class="Rogue">
+            <div class="spec-class">🗡 Rogue</div>
+            <div class="spec-name">Assassination</div>
+          </div>
+          <div class="spec-card" data-class="Rogue">
+            <div class="spec-class">🗡 Rogue</div>
+            <div class="spec-name">Toxicology</div>
+          </div>
+
+          <!-- Necromancer -->
+          <div class="spec-card" data-class="Necromancer">
+            <div class="spec-class">☠ Necromancer</div>
+            <div class="spec-name">Necromancy</div>
+          </div>
+          <div class="spec-card" data-class="Necromancer">
+            <div class="spec-class">☠ Necromancer</div>
+            <div class="spec-name">Bone Master</div>
+          </div>
+          <div class="spec-card" data-class="Necromancer">
+            <div class="spec-class">☠ Necromancer</div>
+            <div class="spec-name">Death Summoner</div>
+          </div>
+          <div class="spec-card" data-class="Necromancer">
+            <div class="spec-class">☠ Necromancer</div>
+            <div class="spec-name">Flesh Puppeteer</div>
+          </div>
+
+          <!-- Warlock -->
+          <div class="spec-card" data-class="Warlock">
+            <div class="spec-class">🔥 Warlock</div>
+            <div class="spec-name">Comprehensiveness</div>
+          </div>
+          <div class="spec-card" data-class="Warlock">
+            <div class="spec-class">🔥 Warlock</div>
+            <div class="spec-name">Destruction</div>
+          </div>
+          <div class="spec-card" data-class="Warlock">
+            <div class="spec-class">🔥 Warlock</div>
+            <div class="spec-name">Affliction</div>
+          </div>
+
+          <!-- Death Knight -->
+          <div class="spec-card" data-class="Death Knight">
+            <div class="spec-class">Death Knight</div>
+            <div class="spec-name">Frost</div>
+          </div>
+          <div class="spec-card" data-class="Death Knight">
+            <div class="spec-class">Death Knight</div>
+            <div class="spec-name">Plague</div>
+          </div>
+          <div class="spec-card" data-class="Death Knight">
+            <div class="spec-class">Death Knight</div>
+            <div class="spec-name">Blood</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="play" class="section">
+      <div class="container">
+        <h2 class="section-title">Play Demo</h2>
+        <p class="section-intro">Bring your champions to the arena. Download or launch the demo.</p>
+        <div class="cta cta-inline">
+          <a class="btn btn-primary" href="#" id="demo-download">Download</a>
+          <a class="btn btn-ghost" href="#" id="demo-web">Launch Web Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">Legends of Champions Tactics</div>
+        <div class="footer-links">
+          <a href="#">Discord</a>
+          <a href="#">Twitter</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
