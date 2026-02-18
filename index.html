@@ -67,21 +67,27 @@
     <section id="characters" class="section section-alt">
       <div class="container">
         <h2 class="section-title">Characters</h2>
-        <div class="characters-grid">
-          <article class="char-card">
-            <div class="char-media" style="background-image:url('./assets/images/warrior.jpg');"></div>
-            <div class="char-body">
-              <h3 class="char-name">Warrior</h3>
-              <p class="char-roles">Defence · Weapon Master · Berserker</p>
+        <div class="gallery">
+          <div class="gallery-tabs">
+            <button class="gallery-tab active" data-class="Warrior">Warrior</button>
+            <button class="gallery-tab" data-class="Priest">Priest</button>
+            <button class="gallery-tab" data-class="Mage">Mage</button>
+            <button class="gallery-tab" data-class="Paladin">Paladin</button>
+            <button class="gallery-tab" data-class="Rogue">Rogue</button>
+            <button class="gallery-tab" data-class="Necromancer">Necromancer</button>
+            <button class="gallery-tab" data-class="Warlock">Warlock</button>
+            <button class="gallery-tab" data-class="Death Knight">Death Knight</button>
+          </div>
+          <div class="gallery-stage">
+            <button class="arrow prev" aria-label="Previous">◀</button>
+            <div class="gallery-slide">
+              <img id="gallery-image" alt="Class artwork">
+              <div class="slide-empty" id="gallery-empty">上传该职业图片到 assets/images/gallery/&lt;职业&gt;/</div>
+              <div class="slide-caption" id="gallery-caption">Warrior</div>
             </div>
-          </article>
-          <article class="char-card">
-            <div class="char-media" style="background-image:url('./assets/images/priest.jpg');"></div>
-            <div class="char-body">
-              <h3 class="char-name">Priest</h3>
-              <p class="char-roles">Shelter · Shadow · Discipline · Devine</p>
-            </div>
-          </article>
+            <button class="arrow next" aria-label="Next">▶</button>
+          </div>
+          <div class="gallery-dots" id="gallery-dots"></div>
         </div>
       </div>
     </section>
